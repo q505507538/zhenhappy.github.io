@@ -1,0 +1,33 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author:
+  name: 吴剑斌
+  email: 505507538@qq.com
+  link: http://zhenhappy.github.io
+  weibo: http://weibo.com/u/1636042354
+  github: http://github.com/q505507538
+
+# 站点信息
+title: ZhenHappy的博客
+description: ZhenHappy的博客
+url: http://zhenhappy.github.io
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: http://zhenhappy.github.io/site-avatar.png
+favicon: http://zhenhappy.github.io/site-favicon.ico
+
+# google analytics 设置
+ga:
+  id: UA-11111111-1
+  url: zhenhappy.github.io
+
+# disqus 设置
+disqus:
+  shortname: zhenhappy
