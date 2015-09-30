@@ -1,10 +1,7 @@
 ---
-layout: post
 title: WimBoot方式安装Windows8/8.1/10 (支持BIOS/UEFI引导方式,MBR/GTP分区格式)
-category: 系统
 tags: WimBoot,UEFI,GTP
-keywords: WimBoot,UEFI,GTP,Windows10,Win10
-description: WimBoot方式安装Windows8/8.1/10 (支持BIOS/UEFI引导方式,MBR/GTP分区格式)
+grammar_cjkRuby: true
 ---
 准备工作:
 
@@ -69,7 +66,7 @@ Win8.1update专业版x86下载地址：
 
 ![enter description here][9]
 
- 3. 现在我们已经有可用于引导WimBoot的镜像文件了
+ 3.现在我们已经有可用于引导WimBoot的镜像文件了
 
 只需要使用U盘进入WinPE5.1，格式化C盘，使用管理员启动命令提示符
 
@@ -92,10 +89,10 @@ Win8.1update专业版x86下载地址：
 
   [1]: http://pan.baidu.com/s/1kTolZKj
   [2]: http://pan.baidu.com/s/1dDAskhz
-  [3]: /assets/images/1443507052534.jpg "1443507052534.jpg"
-  [4]: /assets/images/1443507085599.jpg "1443507085599.jpg"
+  [3]: ./assets/images/1443507052534.jpg "1443507052534.jpg"
+  [4]: ./assets/images/1443507085599.jpg "1443507085599.jpg"
   [5]: ed2k://%7Cfile%7Ccn_windows_8.1_professional_vl_with_update_x64_dvd_4050293.iso%7C4136626176%7C4D2363F9E06BFD50A78B1E6464702959%7C/
   [6]: ed2k://%7Cfile%7Ccn_windows_8.1_professional_vl_with_update_x64_dvd_4050293.iso%7C4136626176%7C4D2363F9E06BFD50A78B1E6464702959%7C/
   [7]: http://pan.baidu.com/s/1bnpipGj
-  [8]: /assets/images/1443507513798.jpg "1443507513798.jpg"
-  [9]: /assets/images/1443507797437.jpg "1443507797437.jpg"
+  [8]: ./assets/images/1443507513798.jpg "1443507513798.jpg"
+  [9]: ./assets/images/1443507797437.jpg "1443507797437.jpg"
