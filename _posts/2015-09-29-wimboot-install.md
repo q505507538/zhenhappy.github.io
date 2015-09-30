@@ -86,13 +86,12 @@ Win8.1update专业版x86下载地址：
 
 安装完后C盘初始大小32位的应该占用4G左右，64位的占用6G左右
 
-
   [1]: http://pan.baidu.com/s/1kTolZKj
   [2]: http://pan.baidu.com/s/1dDAskhz
-  [3]: ./assets/images/1443507052534.jpg "1443507052534.jpg"
-  [4]: ./assets/images/1443507085599.jpg "1443507085599.jpg"
+  [3]: /assets/images/1443507052534.jpg "1443507052534.jpg"
+  [4]: /assets/images/1443507085599.jpg "1443507085599.jpg"
   [5]: ed2k://%7Cfile%7Ccn_windows_8.1_professional_vl_with_update_x64_dvd_4050293.iso%7C4136626176%7C4D2363F9E06BFD50A78B1E6464702959%7C/
   [6]: ed2k://%7Cfile%7Ccn_windows_8.1_professional_vl_with_update_x64_dvd_4050293.iso%7C4136626176%7C4D2363F9E06BFD50A78B1E6464702959%7C/
   [7]: http://pan.baidu.com/s/1bnpipGj
-  [8]: ./assets/images/1443507513798.jpg "1443507513798.jpg"
-  [9]: ./assets/images/1443507797437.jpg "1443507797437.jpg"
+  [8]: /assets/images/1443507513798.jpg "1443507513798.jpg"
+  [9]: /assets/images/1443507797437.jpg "1443507797437.jpg"
