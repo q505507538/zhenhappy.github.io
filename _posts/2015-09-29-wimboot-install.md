@@ -1,7 +1,10 @@
 ---
+layout: post
 title: WimBoot方式安装Windows8/8.1/10 (支持BIOS/UEFI引导方式,MBR/GTP分区格式)
+category: 系统
 tags: WimBoot,UEFI,GTP
-grammar_cjkRuby: true
+keywords: WimBoot,UEFI,GTP,Windows10,Win10
+description: WimBoot方式安装Windows8/8.1/10 (支持BIOS/UEFI引导方式,MBR/GTP分区格式)
 ---
 准备工作:
 
@@ -85,6 +88,7 @@ Win8.1update专业版x86下载地址：
 重启电脑即可，WimBoot安装到此就全部安装完了
 
 安装完后C盘初始大小32位的应该占用4G左右，64位的占用6G左右
+
 
   [1]: http://pan.baidu.com/s/1kTolZKj
   [2]: http://pan.baidu.com/s/1dDAskhz
