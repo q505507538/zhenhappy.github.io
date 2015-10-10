@@ -4,11 +4,11 @@ title: AndroidAnnotations框架入门教程一之介绍
 category: Android
 tags: Android,Annotations
 keywords: Android,Annotations
-description: AndroidAnnotations框架系列教程
+description: AndroidAnnotations框架入门教程一之介绍
 ---
 
 # 资源
-官网:[http://androidannotations.org/][1]
+官网:[http://androidannotations.org][1]
 Github:[https://github.com/excilys/androidannotations][2]
 Github Wiki:[https://github.com/excilys/androidannotations/wiki][3]
 
