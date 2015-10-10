@@ -49,6 +49,6 @@ Github Wiki:[https://github.com/excilys/androidannotations/wiki][3]
 
 好不好用,不用多说
 
-    [1]: http://androidannotations.org/
-    [2]: https://github.com/excilys/androidannotations
-    [3]: https://github.com/excilys/androidannotations/wiki
+  [1]: http://androidannotations.org/
+  [2]: https://github.com/excilys/androidannotations
+  [3]: https://github.com/excilys/androidannotations/wiki
