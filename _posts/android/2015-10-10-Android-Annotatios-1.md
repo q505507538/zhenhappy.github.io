@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程一之介绍
-category: Android,Annotations
+category: Android
 tags: Android,Annotations
 keywords: Android,Annotations
 description: AndroidAnnotations框架系列教程
@@ -25,30 +25,30 @@ Github Wiki:[https://github.com/excilys/androidannotations/wiki][3]
     Button btn;
 
     @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
-    btn = (Button) findViewById(R.id.btn);
-    btn.setOnClickListener(new OnClickListener() {
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        btn = (Button) findViewById(R.id.btn);
+        btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.i("MainActivity", "按钮被点击了");
             }
         });
-  }
+    }
 
 使用后:
 
     @ViewById
     Button btn;
 
-  @Click(R.id.btn)
+    @Click(R.id.btn)
     void btnClicked() {
         Log.i("MainActivity", "按钮被点击了");
     }
 
 好不好用,不用多说
 
-  [1]: http://androidannotations.org/
-  [2]: https://github.com/excilys/androidannotations
-  [3]: https://github.com/excilys/androidannotations/wiki
+    [1]: http://androidannotations.org/
+    [2]: https://github.com/excilys/androidannotations
+    [3]: https://github.com/excilys/androidannotations/wiki
