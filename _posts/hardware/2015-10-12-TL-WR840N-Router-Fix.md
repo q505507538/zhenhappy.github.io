@@ -201,13 +201,13 @@ description: TL-WR840N救砖手记
 相关工具在这里下载
 链接：[http://pan.baidu.com/s/1ntOqdMp][10] 密码：aczz
 
-  [1]: /assets/images/1444660348537.jpg "1444660348537.jpg"
-  [2]: /assets/images/1444660374852.jpg "1444660374852.jpg"
-  [3]: /assets/images/1444660389010.jpg "1444660389010.jpg"
-  [4]: /assets/images/1444660406090.jpg "1444660406090.jpg"
-  [5]: /assets/images/1444660422873.jpg "1444660422873.jpg"
-  [6]: /assets/images/1444660471559.jpg "1444660471559.jpg"
-  [7]: /assets/images/1444660491731.jpg "1444660491731.jpg"
-  [8]: /assets/images/1444660629013.jpg "1444660629013.jpg"
-  [9]: /assets/images/1444661160991.jpg "1444661160991.jpg"
+  [1]: /assets/images/TL-WR840N-Router-Fix/1444660348537.jpg "1444660348537.jpg"
+  [2]: /assets/images/TL-WR840N-Router-Fix/1444660374852.jpg "1444660374852.jpg"
+  [3]: /assets/images/TL-WR840N-Router-Fix/1444660389010.jpg "1444660389010.jpg"
+  [4]: /assets/images/TL-WR840N-Router-Fix/1444660406090.jpg "1444660406090.jpg"
+  [5]: /assets/images/TL-WR840N-Router-Fix/1444660422873.jpg "1444660422873.jpg"
+  [6]: /assets/images/TL-WR840N-Router-Fix/1444660471559.jpg "1444660471559.jpg"
+  [7]: /assets/images/TL-WR840N-Router-Fix/1444660491731.jpg "1444660491731.jpg"
+  [8]: /assets/images/TL-WR840N-Router-Fix/1444660629013.jpg "1444660629013.jpg"
+  [9]: /assets/images/TL-WR840N-Router-Fix/1444661160991.jpg "1444661160991.jpg"
   [10]: http://pan.baidu.com/s/1ntOqdMp

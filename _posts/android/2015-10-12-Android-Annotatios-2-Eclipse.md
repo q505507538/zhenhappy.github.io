@@ -83,9 +83,9 @@ android-support-v4.jar是创建项目自带的
 
 测试结果应该是和没用annotation的效果一样的
 
-  [1]: /assets/images/1444637579305.jpg "1444637579305.jpg"
+  [1]: /assets/images/Android-Annotatios-2-Eclipse/1444637579305.jpg "1444637579305.jpg"
   [2]: https://github.com/excilys/androidannotations/wiki/Download
-  [3]: /assets/images/1444638059269.jpg "1444638059269.jpg"
-  [4]: /assets/images/1444638223297.jpg "1444638223297.jpg"
-  [5]: /assets/images/1444638325506.jpg "1444638325506.jpg"
-  [6]: /assets/images/1444639362326.jpg "1444639362326.jpg"
+  [3]: /assets/images/Android-Annotatios-2-Eclipse/1444638059269.jpg "1444638059269.jpg"
+  [4]: /assets/images/Android-Annotatios-2-Eclipse/1444638223297.jpg "1444638223297.jpg"
+  [5]: /assets/images/Android-Annotatios-2-Eclipse/1444638325506.jpg "1444638325506.jpg"
+  [6]: /assets/images/Android-Annotatios-2-Eclipse/1444639362326.jpg "1444639362326.jpg"
