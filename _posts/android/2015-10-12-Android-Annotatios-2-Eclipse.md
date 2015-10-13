@@ -2,8 +2,8 @@
 layout: post
 title: AndroidAnnotations框架入门教程二之Eclipse环境配置
 category: Android
-tags: Android,Annotations
-keywords: Android,Annotations
+tags: Android,Annotations,Eclipse
+keywords: Android,Annotations,Eclipse
 description: AndroidAnnotations框架入门教程二之Eclipse环境配置
 ---
 
@@ -38,7 +38,7 @@ android-support-v4.jar是创建项目自带的
 ## 3. 修改配置文件
 
 打开项目目录下的AndroidManifest.xml文件
-在主函数那边后面加一个下划线
+在.MainActivity后面加一个下划线"_"
 原来是
 
     <activity
@@ -68,7 +68,7 @@ android-support-v4.jar是创建项目自带的
     @EActivity(R.layout.activity_main)
     public class MainActivity extends Activity {
 
-    	@Override
+      @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
     //        setContentView(R.layout.activity_main);
@@ -80,8 +80,12 @@ android-support-v4.jar是创建项目自带的
 另一个就是在MainActivity类上方加`@EActivity(R.layout.activity_main)`,这句话就代替了`setContentView(R.layout.activity_main);`的作用
 
 ## 5. 运行程序测试
-
 测试结果应该是和没用annotation的效果一样的
+![][7]
+
+
+# 项目Demo
+[https://github.com/zhenhappy/AndroidAnnotation_Demo][8]
 
   [1]: /assets/images/Android-Annotatios-2-Eclipse/1444637579305.jpg "1444637579305.jpg"
   [2]: https://github.com/excilys/androidannotations/wiki/Download
@@ -89,3 +93,5 @@ android-support-v4.jar是创建项目自带的
   [4]: /assets/images/Android-Annotatios-2-Eclipse/1444638223297.jpg "1444638223297.jpg"
   [5]: /assets/images/Android-Annotatios-2-Eclipse/1444638325506.jpg "1444638325506.jpg"
   [6]: /assets/images/Android-Annotatios-2-Eclipse/1444639362326.jpg "1444639362326.jpg"
+  [7]: /assets/images/Android-Annotatios-2-Eclipse/1444703713801.jpg "1444703713801.jpg"
+  [8]: https://github.com/zhenhappy/AndroidAnnotation_Demo
