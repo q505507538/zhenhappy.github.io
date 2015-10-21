@@ -12,9 +12,14 @@ description: git修改已经提交的注释
 
 # 更早之前的历史修改
 
+假设要修改当前版本的倒数第三次状态
+
     git rebase -i HEAD~3
 
-表示要修改当前版本的倒数第三次状态。
+假设要修改第一个版本
+
+    git rebase -i --root
+
 然后会看到
 
     pick:*******
