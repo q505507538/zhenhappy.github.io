@@ -7,8 +7,6 @@ keywords: Java,Reflect,getGenericType,getMethod,invoke
 description: Java遍历对象所有属性
 ---
 
-# Java遍历对象所有属性
-
 要获取对象的所有属性可以使用`getDeclaredFields()`
 方法会返回一个`Field`数组
 遍历这个数组几个遍历所有属性
