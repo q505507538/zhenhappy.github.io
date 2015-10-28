@@ -1,7 +1,5 @@
 permalink: /:year/:month/:day/:title.html
-markdown: redcarpet
-redcarpet:
-    extensions: ["tables"]
+markdown: kramdown
 pygments: true
 
 kramdown:
