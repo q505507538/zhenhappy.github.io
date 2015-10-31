@@ -12,10 +12,10 @@ description: React系列入门教程一之HelloWorld
     bower install --save react
 
 当然不一定非要把react装到本地才能用
-导入CDN链接也是可以的,前提是用户需要能蕃蔷
+导入CDN链接也是可以的
 
-    <script src="https://fb.me/react-0.14.1.js"></script>
-    <script src="https://fb.me/react-dom-0.14.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
 
 React 1.4开始将不在使用JSXTransform改用Babel来解析了
 改用Babel分为在线和离线
@@ -50,8 +50,8 @@ React 1.4开始将不在使用JSXTransform改用Babel来解析了
       <head>
         <meta charset="UTF-8" />
         <title>Hello React!</title>
-        <script src="https://fb.me/react-0.14.1.js"></script>
-        <script src="https://fb.me/react-dom-0.14.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
       </head>
       <body>
