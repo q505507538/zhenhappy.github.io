@@ -95,3 +95,4 @@ React 1.4开始将不在使用JSXTransform改用Babel来解析了
       </body>
     </html>
 
+代码可以查看这里:[https://github.com/zhenhappy/react-tutorial/tree/master/01](https://github.com/zhenhappy/react-tutorial/tree/master/01)
