@@ -12,7 +12,7 @@ description: React系列入门教程一之HelloWorld
     bower install --save react
 
 当然不一定非要把react装到本地才能用
-导入CDN链接也是可以的
+导入CDN链接也是可以的,前提是用户需要能蕃蔷
 
     <script src="https://fb.me/react-0.14.1.js"></script>
     <script src="https://fb.me/react-dom-0.14.1.js"></script>
