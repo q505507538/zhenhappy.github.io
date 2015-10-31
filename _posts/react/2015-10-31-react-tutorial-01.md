@@ -23,15 +23,6 @@ React 1.4开始将不在使用JSXTransform改用Babel来解析了
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
-然后脚本的类型需要写成type="text/babel"
-
-    <script type="text/babel">
-      ReactDOM.render(
-        <h1>Hello, world!</h1>,
-        document.getElementById('example')
-      );
-    </script>
-
 离线的话需要安装babel这个npm包
 
     npm install --global babel
@@ -43,7 +34,7 @@ React 1.4开始将不在使用JSXTransform改用Babel来解析了
 这个命令可以将src目录编译
 
 # HelloWorld
-我们来写个HelloWorld,在线的方式需要蕃蔷
+我们来写个HelloWorld,采用在线引用的话比较简单,直接把script的type类型设置为text/babel,就可以HTML和JavaScript混合使用
 
     <!DOCTYPE html>
     <html>
