@@ -1,13 +1,18 @@
 ---
 layout: post
-title: React系列入门教程一之HelloWorld
+title: React快速入门教程一之HelloWorld
 category: React
 tags: React
 keywords: React
-description: React系列入门教程一之HelloWorld
+description: React快速入门教程一之HelloWorld
 ---
 
 # 安装
+先使用npm安装Bower
+
+    npm install -g bower
+
+在使用bower安装react
 
     bower install --save react
 
@@ -18,71 +23,45 @@ description: React系列入门教程一之HelloWorld
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
 
 React 1.4开始将不在使用JSXTransform改用Babel来解析了
-改用Babel分为在线和离线
-在线
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
-离线的话需要安装babel这个npm包
-
-    npm install --global babel
-
-然后执行这个命令编译
-
-    babel src --watch --out-dir build
-
-这个命令可以将src目录编译
+引入browser.min.js可以支持Babel
 
 # HelloWorld
-我们来写个HelloWorld,采用在线引用的话比较简单,直接把script的type类型设置为text/babel,就可以HTML和JavaScript混合使用
+首先呢我们可以把上面提到的三个CND文件下载到本地,直接引用比较省事
+我们来写个HelloWorld,直接把script的type类型设置为text/babel,就可以HTML和JavaScript混合使用
+`React.createClass`创建一个名叫MessageBox的组件,其实就是一个js变量
+`ReactDOM.render`将MessageBox渲染到id="app"的div中,完成后返回一个callback
 
     <!DOCTYPE html>
     <html>
       <head>
         <meta charset="UTF-8" />
         <title>Hello React!</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+        <script src="../build/react.js"></script>
+        <script src="../build/react-dom.js"></script>
+        <script src="../build/browser.min.js"></script>
       </head>
       <body>
-        <div id="example"></div>
+        <div id="app"></div>
         <script type="text/babel">
-          ReactDOM.render(
-            <h1>Hello, world!</h1>,
-            document.getElementById('example')
+          var MessageBox = React.createClass({
+            alertMe:function(){
+              alert("你刚才点了我");
+            },
+            render:function(){
+              return ( <h1 onClick={this.alertMe}>你好,世界!</h1> )
+            }
+          });
+
+          ReactDOM.render( <MessageBox/>,
+            document.getElementById('app'),
+            function(){
+              console.log('渲染完成啦');
+            }
           );
         </script>
-      </body>
-    </html>
-
-如果是离线编译方式,首先是用bower安装react
-`bower install --save react`
-安装好后会生成`bower_components`文件夹
-在程序中引用即可
-然后将脚本写到src/helloworld.js文件中
-
-    ReactDOM.render(
-      React.createElement('h1', null, 'Hello, world!'),
-      document.getElementById('example')
-    );
-
-然后用
-`babel src --watch --out-dir build`
-编译src目录下的js文件到build中,这条命令加了--watch参数会一直监控文件变化,一有更改会立刻编译,不需要我们从新在去执行命令了
-
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="UTF-8" />
-        <title>Hello React!</title>
-        <script src="bower_components/react/react.js"></script>
-        <script src="bower_components/react/react-dom.js"></script>
-        <!-- No need for Babel! -->
-      </head>
-      <body>
-        <div id="example"></div>
-        <script src="build/helloworld.js"></script>
       </body>
     </html>
 
