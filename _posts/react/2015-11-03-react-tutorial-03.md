@@ -21,7 +21,7 @@ State有个`getInitialState`方法,该方法在组件被挂载前调用,仅调�
           clickCount:0,
         }
       },
-      handlerClick: function(){
+      onClick: function(){
         this.setState({
           clickCount: this.state.clickCount + 1,
         })
@@ -30,7 +30,7 @@ State有个`getInitialState`方法,该方法在组件被挂载前调用,仅调�
         return (
           <div>
             <h2>点击下面按钮</h2>
-            <button onClick={this.handlerClick}>点击我</button>
+            <button onClick={this.onClick}>点击我</button>
             <p>你一共点击了:{this.state.clickCount}</p>
           </div>
         )
