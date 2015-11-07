@@ -13,11 +13,11 @@ description: JRebel for Android实战用法
 ## 安装
 打开Android Studio -> Preferences -> Plugins -> Browse repositories... -> Search "JRebel for Android" -> Install plugin
 安装好后重启导入证书即可
-![enter description here][1]
+![安装][1]
 
 ## 使用方法
 用法很简单,就是原本的Run和Debug按钮替换成JRebel的Run和Debug按钮,看动画就可以理解
-![enter description here][2]
+![使用方法][2]
 有个地方需要注意的是就是每次修改完后要手动点Make按钮(或者快捷键是Command+F9)模拟器那边的程序才会重新渲染
 
   [1]: /assets/images/JRebel-for-Android-Studio/1446736044669.jpg "1446736044669.jpg"
