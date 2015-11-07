@@ -7,15 +7,15 @@ keywords: Android,Annotations
 description: AndroidAnnotations框架入门教程一之介绍
 ---
 
-# 资源
+## 资源
 官网:[http://androidannotations.org][1]
 Github:[https://github.com/excilys/androidannotations][2]
 Github Wiki:[https://github.com/excilys/androidannotations/wiki][3]
 
-# AndroidAnnotations框架是什么?
+## AndroidAnnotations框架是什么?
 一款开源的Android框架,基于Java annotations
 
-# 为什么用它?
+## 为什么用它?
 
 不解释,看代码
 使用前:
