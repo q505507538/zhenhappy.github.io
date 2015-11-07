@@ -7,7 +7,7 @@ keywords: React
 description: React快速入门教程一之HelloWorld
 ---
 
-# 安装
+## 安装
 先使用npm安装Bower
 
     npm install -g bower
@@ -28,7 +28,7 @@ React 1.4开始将不在使用JSXTransform改用Babel来解析了
 
 引入browser.min.js可以支持Babel
 
-# HelloWorld
+## HelloWorld
 首先呢我们可以把上面提到的三个CND文件下载到本地,直接引用比较省事
 我们来写个HelloWorld,直接把script的type类型设置为text/babel,就可以HTML和JavaScript混合使用
 `React.createClass`创建一个名叫MessageBox的组件,其实就是一个js变量
