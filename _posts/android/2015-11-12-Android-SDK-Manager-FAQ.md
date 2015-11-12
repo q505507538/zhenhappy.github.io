@@ -9,15 +9,12 @@ description: Android SDK Manager 出现peer not authenticated错误
 
 ### 问题1:peer not authenticated错误
 ![][1]
-
 解决方法:
 `Tools -> Options`勾选`Force https://...sources to be fetched using http://...`即可
 ![][2]
 
 ### 问题2:Download finished with wrong size. Expected 77890715 bytes, got 81920 bytes错误
-
 ![][3]
-
 解决方法:
 第一:启动SDK manager.exe时会自动获取sdk列表,点击右下角Log按钮
 第二:一般在最开头的位置如下图有类似于`Parse XML:    http://dl.google.com/android/repository/repository-xx.xml`这样的就是sdk的下载列表,在浏览器中输入这个地址
