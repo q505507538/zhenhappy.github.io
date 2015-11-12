@@ -7,7 +7,7 @@ keywords: powershell
 description: PowerShell在此系统中禁止执行脚本解决方法
 ---
 
-在Powershell直接脚本时会出现：
+在PowerShell中直接脚本时会出现：
 
 无法加载文件 ******profile.ps1，因为在此系统上禁止运行脚本。有关详细信息，请参阅 http://
 go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies。
