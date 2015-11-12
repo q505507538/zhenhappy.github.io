@@ -92,6 +92,8 @@ a {
   box-shadow: inset -15px 0 15px -15px #222;
   float: left;
   position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -100,6 +102,12 @@ a {
   @media screen and (max-width: 585px) {
     #tags {
       display: none; } }
+  #tags::-webkit-scrollbar {
+    width: 0px; }
+  #tags::-webkit-scrollbar-thumb {
+    background: transparent; }
+  #tags:hover::-webkit-scrollbar-thumb {
+    background: #c8ced6; }
 
 #avatar {
   width: 100px;
@@ -174,7 +182,7 @@ a {
   height: 44px;
   border-top: 1px solid #3c4149;
   overflow: hidden;
-  position: absolute;
+  /*position: absolute;*/
   left: 0;
   bottom: 0; }
   #tags__bottom > .fontello, #tags__bottom > .post__toc-li:before {
