@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android SDK Manager 出现peer not authenticated错误
+title: Android SDK Manager出现peer not authenticated错误
 category: Android
 tags: Android,peer,not,authenticated
 keywords: Android,peer,not,authenticated
