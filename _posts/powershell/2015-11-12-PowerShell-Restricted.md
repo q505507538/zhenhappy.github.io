@@ -1,10 +1,10 @@
 ---
 layout: post
-title: PowerShell因为在此系统中禁止执行脚本解决方法
+title: PowerShell在此系统中禁止执行脚本解决方法
 category: powershell
 tags: powershell
 keywords: powershell
-description: PowerShell因为在此系统中禁止执行脚本解决方法
+description: PowerShell在此系统中禁止执行脚本解决方法
 ---
 
 在Powershell直接脚本时会出现：
