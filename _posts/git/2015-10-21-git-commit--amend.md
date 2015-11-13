@@ -2,7 +2,7 @@
 layout: post
 title: git修改已经提交的注释
 category: git,commit,amend,rebase
-tags: git
+tags: Git
 keywords: git,commit,amend,rebase
 description: git修改已经提交的注释
 ---

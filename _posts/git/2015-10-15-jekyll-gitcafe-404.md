@@ -2,7 +2,7 @@
 layout: post
 title: jekyll在gitcafe-pages下404重定向循环问题的解决
 category: jekyll,gitcafe,404,重定向循环
-tags: git
+tags: Git
 keywords: jekyll,gitcafe,404,重定向循环
 description: jekyll在gitcafe-pages下404重定向循环问题的解决
 ---
