@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程一之介绍
-category: Android,Annotations
+category: Android
 tags: Android
 keywords: Android,Annotations
 description: AndroidAnnotations框架入门教程一之介绍
