@@ -1,8 +1,8 @@
 ---
 layout: post
 title: WimBoot方式安装Windows8/8.1/10 (支持BIOS/UEFI引导方式,MBR/GTP分区格式)
-category: 系统
-tags: WimBoot,UEFI,GTP
+category: WimBoot,UEFI,GTP
+tags: 系统
 keywords: WimBoot,UEFI,GTP,Windows10,Win10
 description: WimBoot方式安装Windows8/8.1/10 (支持BIOS/UEFI引导方式,MBR/GTP分区格式)
 ---
