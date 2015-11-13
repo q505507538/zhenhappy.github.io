@@ -1,8 +1,8 @@
 ---
 layout: post
 title: React快速入门教程三之组件状态State
-category: React
-tags: React,State
+category: React,State
+tags: React
 keywords: React,State
 description: React快速入门教程三之组件状态State
 ---

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: PowerShell在此系统中禁止执行脚本解决方法
-category: powershell
-tags: powershell
-keywords: powershell
+category: PowerShell
+tags: PowerShell
+keywords: PowerShell
 description: PowerShell在此系统中禁止执行脚本解决方法
 ---
 

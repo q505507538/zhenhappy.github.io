@@ -1,8 +1,8 @@
 ---
 layout: post
 title: React快速入门教程四之组件参数props
-category: React
-tags: React,props
+category: React,props
+tags: React
 keywords: React,props
 description: React快速入门教程四之组件参数props
 ---
