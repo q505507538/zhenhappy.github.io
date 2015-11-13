@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Java中通过属性字符串名取属性内容
-category: Java
-tags: Java,Android,getDeclaredField,Field
+category: Java,Android,getDeclaredField,Field
+tags: Java
 keywords: Java,Android,getDeclaredField,Field
 description: Java中通过属性名获取对象属性内容
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: TL-WR840N救砖手记
-category: 硬件
-tags: 路由器,OpenWRT,刷机,救砖
+category: 路由器,OpenWRT,刷机,救砖
+tags: 硬件
 keywords: 路由器,OpenWRT,刷机,救砖
 description: TL-WR840N救砖手记
 ---

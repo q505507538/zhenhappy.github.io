@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Java遍历对象所有属性
-category: Java
-tags: Java,Reflect,getGenericType,getMethod,invoke
+category: Java,Reflect,getGenericType,getMethod,invoke
+tags: Java
 keywords: Java,Reflect,getGenericType,getMethod,invoke
 description: Java遍历对象所有属性
 ---
