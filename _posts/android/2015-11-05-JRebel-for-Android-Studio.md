@@ -1,8 +1,8 @@
 ---
 layout: post
 title: JRebel for Android实战用法
-category: Android
-tags: jrebel,android
+category: jrebel,android
+tags: Android
 keywords: jrebel,android
 description: JRebel for Android实战用法
 ---

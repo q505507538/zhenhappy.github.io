@@ -4,12 +4,12 @@
 
     <ul id="tags__ul">
       <li id="pl__all" class="tags__li tags-btn active">全部</li>
-      {% for category in site.categories %}
+      <!--{% for category in site.categories %}
         <li id="{{ category[0] }}" class="tags__li tags-btn">{{ category[0] }}</li>
-      {% endfor %}
-      <!--{% for tag in site.tags %}
-        <li id="{{ tag | first }}" class="tags__li tags-btn">{{ tag | first }}</li>
       {% endfor %} -->
+      {% for tag in site.tags %}
+        <li id="{{ tag | first }}" class="tags__li tags-btn">{{ tag | first }}</li>
+      {% endfor %}
     </ul>
 
     <div id="tags__bottom">

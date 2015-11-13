@@ -1,8 +1,8 @@
 ---
 layout: post
 title: git克隆出所有分支
-category: git
-tags: git,clone,url,all,branches
+category: git,clone,url,all,branches
+tags: git
 keywords: git,clone,url,all,branches
 description: git克隆出所有分支
 ---
