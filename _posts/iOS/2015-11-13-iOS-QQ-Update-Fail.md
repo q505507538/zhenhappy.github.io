@@ -4,7 +4,7 @@ title: 解决iOS版QQ更新'无法下载应用'问题
 category: iOS
 tags: qd.myapp.com,无法下载应用,此时无法下载'QQ'
 keywords: qd.myapp.com,无法下载应用,此时无法下载'QQ'
-description: 解决iOS版QQ更新"无法下载应用"问题
+description: 解决iOS版QQ更新'无法下载应用'问题
 ---
 
 问题:
