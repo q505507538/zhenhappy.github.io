@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 正则表达式常用资源
-category: 资源
-tags: 正则,js,JavaScript
+category: 正则,js,JavaScript
+tags: 资源
 keywords: 正则,js,JavaScript
 description: 正则表达式常用资源
 ---
