@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程四之@EActivity
-category: Android
+category: Android,Annotations,@EActivity
 tags: Android
 keywords: Android,Annotations,@EActivity
 description: AndroidAnnotations框架入门教程四之@EActivity

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 正则表达式常用资源
-category: 正则,js,JavaScript
+category: 正则,js,JavaScript,Regular Expression
 tags: 资源
-keywords: 正则,js,JavaScript
+keywords: 正则,js,JavaScript,Regular Expression
 description: 正则表达式常用资源
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程二之Eclipse环境配置
-category: Android
+category: Android,Annotations,Eclipse
 tags: Android
 keywords: Android,Annotations,Eclipse
 description: AndroidAnnotations框架入门教程二之Eclipse环境配置

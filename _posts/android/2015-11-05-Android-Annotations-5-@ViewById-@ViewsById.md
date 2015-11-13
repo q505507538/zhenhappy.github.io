@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程五之@ViewById和@ViewsById
-category: Android
+category: Android,Annotations,@ViewById,@ViewsById
 tags: Android
 keywords: Android,Annotations,@ViewById,@ViewsById
 description: AndroidAnnotations框架入门教程五之@ViewById和@ViewsById

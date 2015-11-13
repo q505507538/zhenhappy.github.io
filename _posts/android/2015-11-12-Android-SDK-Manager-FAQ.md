@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Android SDK Manager常见问题
-category: Android
+category: Android,peer not authenticated,Download finished with wrong size
 tags: Android
-keywords: Android,peer,not,authenticated
+keywords: Android,peer not authenticated,Download finished with wrong size
 description: Android SDK Manager 出现peer not authenticated错误
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程三之Android Studio环境配置
-category: Android
+category: Android,Annotations,Android Studio
 tags: Android
 keywords: Android,Annotations,Android Studio
 description: AndroidAnnotations框架入门教程三之Android Studio环境配置

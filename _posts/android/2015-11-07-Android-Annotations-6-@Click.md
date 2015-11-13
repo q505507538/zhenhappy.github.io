@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AndroidAnnotations框架入门教程六之@Click
-category: Android
+category: Android,Annotations,@Click
 tags: Android
 keywords: Android,Annotations,@Click
 description: AndroidAnnotations框架入门教程六之@Click
