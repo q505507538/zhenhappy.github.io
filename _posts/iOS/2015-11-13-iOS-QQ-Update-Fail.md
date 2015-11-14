@@ -22,7 +22,7 @@ description: 解决iOS版QQ更新'无法下载应用'问题
 手机要安装QQ肯定要先下载它,那么也就是说如果我们有QQ的下载地址,用电脑下载下来,通过PP助手之类的去安装就可以解决,前提是要设备要越狱
 
 开始行动:
-1.安装Charles(众所周知这是Mac上很流行的抓包工具),当然了他也有Windows版本,如果是Windows用户还有一个选择就是用Fiddler2,这里我们用Windows版的Charles来做演示,原理都一样
+1.安装Charles(众所周知这是Mac上很流行的抓包工具),当然了他也有Windows版本,如果是Windows用户还有一个选择就是用Fiddler2,这里用Windows版的Charles来做演示,原理都一样,下载地址在这[http://www.charlesproxy.com/download/](http://www.charlesproxy.com/download/),无需正版的,免费的就多等10秒就可以了
 2.首先我们要了解苹果自从iOS8以上更新ipa包就强制要求采用https协议
 所以我们要能对https进行抓包,https是加密链接理论上是不能抓包的,但是我们通过伪证书进行抓包是可以的,根据[官方说明](http://www.charlesproxy.com/documentation/using-charles/ssl-certificates/)在iOS设备上用Safari打开这个地址[http://www.charlesproxy.com/getssl/](http://www.charlesproxy.com/getssl/)就会自动跳出安装证书提示,输入密码安装即可
 3.装好证书后给自己的Wi-Fi设置代理为电脑的IP,然后到QQ的`设置`->`关于QQ与帮助`->`版本更新`重新获取更新,在Charles这边点允许`Allow`同意远程设备抓包
