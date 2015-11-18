@@ -7,8 +7,7 @@
       <!-- {% for tag in site.tags %}
         <li id="{{ tag | first }}" class="tags__li tags-btn">{{ tag | first }}</li>
       {% endfor %} -->
-
-      {% for tag in site.tags offset:9 limit:9 %}
+      {% for tag in {{ site.tags | sort: 'date', 'last' }} %}
         <li id="{{ tag | first }}" class="tags__li tags-btn">{{ tag | first }}</li>
       {% endfor %}
     </ul>
