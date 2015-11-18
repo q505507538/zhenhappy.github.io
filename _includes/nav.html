@@ -4,10 +4,7 @@
 
     <ul id="tags__ul">
       <li id="pl__all" class="tags__li tags-btn active">全部</li>
-      <!-- {% for tag in site.tags %}
-        <li id="{{ tag | first }}" class="tags__li tags-btn">{{ tag | first }}</li>
-      {% endfor %} -->
-      {% for tag in site.tags | sort: 'date', 'last' %}
+      {% for tag in site.tags %}
         <li id="{{ tag | first }}" class="tags__li tags-btn">{{ tag | first }}</li>
       {% endfor %}
     </ul>
