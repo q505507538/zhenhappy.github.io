@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 解决Android Studio默认AppTheme主题找不到的问题
-category: Android
+category: android,support,v7,internal,app,WindowDecorActionBar
 tags: Android
 keywords: android,support,v7,internal,app,WindowDecorActionBar
 description: 解决Android Studio默认AppTheme主题找不到的问题
