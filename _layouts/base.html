@@ -2,11 +2,20 @@
 <html>
   <head>
     {% include header.html %}
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?4bcaa8694182c2ed712f79f8a2eb45cf";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
   </head>
   <body>
     {% include nav.html %}
     <div id="post">
-      <div id="pjax">
+      <div id="pjax">e
         {{ content }}
         {% include copyright.html %}
       </div> <!-- end #pjax -->
