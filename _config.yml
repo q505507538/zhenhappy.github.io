@@ -29,6 +29,10 @@ ga:
   id: UA-70666436-1
   url: zhenhappy.github.io
 
+# 百度统计 设置
+bs:
+  id: 4bcaa8694182c2ed712f79f8a2eb45cf
+
 # disqus 设置
 disqus:
   shortname: zhenhappy
