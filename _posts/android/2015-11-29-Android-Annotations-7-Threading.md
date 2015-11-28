@@ -13,15 +13,15 @@ description: AndroidAnnotations框架入门教程七之Threading系列
 两种线程注解用法类似,只要在方法前加上注解,这个方法就会用多线程方式执行
 
 ```
-    @Background
-    void someBackgroundWork(String aParam, long anotherParam) {
-        [...]
-    }
-    
-    @UiThread
-    void doInUiThread(String aParam, long anotherParam) {
-        [...]
-    }
+@Background
+void someBackgroundWork(String aParam, long anotherParam) {
+    [...]
+}
+
+@UiThread
+void doInUiThread(String aParam, long anotherParam) {
+    [...]
+}
 ```
     
 以上是最基本的用法
