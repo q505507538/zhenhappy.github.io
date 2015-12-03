@@ -32,8 +32,25 @@ description: 解决iOS版QQ更新'无法下载应用'问题
 然后就可以看到抓包结果了,在右侧的URL那里的[`https://qd.myapp.com/myapp/qqteam/iPhoneQQ/iPhoneQQ_6.0.0.121.ipa`](https://qd.myapp.com/myapp/qqteam/iPhoneQQ/iPhoneQQ_6.0.0.121.ipa)就是iPhoneQQ6.0的ipa包下载地址了
 4.下载到电脑后用PP助手安装就搞定了
 
+后续:
+同理发现QQ音乐也有不能升级的问题,比QQ更坑爹,QQ还能出现正在下载什么的最后经过N次尝试失败,QQ音乐就什么都没有提示,点下去若无其事一样,一点反应都没有。
+不过知道方法就不怕,解决方法类似,不过有一点点不同,就是刚说了,QQ音乐点下去一点反应都没有,也就是说QQ音乐它根本还没到请求ipa包下载那步,那该如何抓它的下载地址呢?
+说到这边我们先简单的了解下iOS大企业证书的安装过程。苹果大企业证书是可以不通过AppStore安装到iOS系统上的。理论上我们正常点升级是可以安装成功的,为什么QQ和QQ音乐安装不成功。这边原因可能出在他们证书上,具体是什么问题,我不是开发人员不太清楚。但是今天我们要解决的问题是如何抓到下载地址。首先iOS在请求下载安装包的时候其实是先请求一个plist文件,这是一个xml文件,里面包含安装包的一些信息,其中就包括我们想知道的下载地址。那知道这个原理后我们就开始抓这个plist文件,经过我抓包尝试得知`https://d3g.qq.com`开头是就是plist文件的地址了,右键这个地址选择`Enable SSL Proxying`启用SSL抓包,前提是和抓QQ的步骤一样,要有安装伪证书,才能抓https的地址。
+![][6]
+抓包结果如上图,将是plist文件下载后用记事本打开,正常人瞄一眼就可以看到下载地址了
+
+    <dict>
+        <key>kind</key>
+        <string>software-package</string>
+        <key>url</key>
+		<string>http://d3g.qq.com/musicapp/kge/508/QQMusic5.8build18_002.ipa</string>
+    </dict>
+
+包含ipa的那个url就是下载地址了,剩下的步骤不多说,和QQ一样。
+
   [1]: /assets/images/iOS-QQ-Update-Fail/1447401617667.jpg "1447401617667.jpg"
   [2]: /assets/images/iOS-QQ-Update-Fail/1447401643931.jpg "1447401643931.jpg"
   [3]: /assets/images/iOS-QQ-Update-Fail/1447401842574.jpg "1447401842574.jpg"
   [4]: /assets/images/iOS-QQ-Update-Fail/1447401732774.jpg "1447401732774.jpg"
   [5]: /assets/images/iOS-QQ-Update-Fail/1447468619121.jpg "1447468619121.jpg"
+  [6]: /assets/images/iOS-QQ-Update-Fail/1449131436090.jpg "1449131436090.jpg"
