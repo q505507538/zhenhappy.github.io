@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 多账户GitHub配置
-category: git
-tags: git
+category: Git
+tags: Git
 keywords: GitHub,Multi-profile
 description: 多账户GitHub配置
 ---
