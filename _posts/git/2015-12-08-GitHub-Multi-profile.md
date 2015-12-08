@@ -23,7 +23,7 @@ description: 多账户GitHub配置
 
 ### 2、修改config文件
 
-在.ssh目录下创建config文件
+在`.ssh`目录下创建`config`文件
 
     $ touch config
 
