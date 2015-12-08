@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sass入门常用资源
-category: resource
-tags: resource
+category: Sass Starter
+tags: 资源
 keywords: Sass Starter
 description: Sass入门常用资源
 ---
