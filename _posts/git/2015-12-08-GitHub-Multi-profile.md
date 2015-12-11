@@ -35,16 +35,16 @@ description: 多账户GitHub配置
 # 这里建议默认的github帐号Host写github.com,最常用的省得以后每次clone还要改地址,麻烦
 # HostName和User不要改,IdentityFile根据是什么系统用什么路径
 Host github.com
-HostName github.com
-User git
-IdentityFile ~/.ssh/user1_rsa
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/user1_rsa
 
 # second user(user2@email.com)
 # 建一个github别名
 Host github2
-HostName github.com
-User git
-IdentityFile ~/.ssh/user2_rsa
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/user2_rsa
 ```
 规则是从上至下读取config的内容，在每个Host下寻找对应的私钥。将原地址git@github.com:test/test.git替换成github2:test/test.git
 
