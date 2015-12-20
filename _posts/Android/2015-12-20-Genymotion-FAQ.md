@@ -17,8 +17,8 @@ description: Genymotion 常见问题
 经过网络上一翻搜索没有结果,我以前安装也是直接就有的,可是不明白最近为何会没找到,后来经过查阅官方FAQ找到问题答案
 [https://www.genymotion.com/#!/support?chapter=plugin-invisible-eclipse](https://www.genymotion.com/#!/support?chapter=plugin-invisible-eclipse)
 
-> - #### Why can't I see the Genymotion plugin in the Eclipse plugin list?
-> ##### The new version of Eclipse (Mars) automatically checks option **Group item by category**. When this option is enabled, the Genymotion plugin does not appear in the list of available plugins. In the **Install new software** window, uncheck this option to fix the problem.
+> - Why can't I see the Genymotion plugin in the Eclipse plugin list?
+> The new version of Eclipse (Mars) automatically checks option **Group item by category**. When this option is enabled, the Genymotion plugin does not appear in the list of available plugins. In the **Install new software** window, uncheck this option to fix the problem.
 
 原来只要去掉`Group item by category`选项即可
 
