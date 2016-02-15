@@ -136,10 +136,10 @@ SDK地址：http://iphone.howett.net/sdks
 ![][7]
 
 
-  [1]: ./images/iOS-jailbreak-development-environment-1/1454494321547.jpg "1454494321547.jpg"
-  [2]: ./images/iOS-jailbreak-development-environment-1/1454578651005.jpg "1454578651005.jpg"
-  [3]: ./images/iOS-jailbreak-development-environment-1/1454579092711.jpg "1454579092711.jpg"
-  [4]: ./images/iOS-jailbreak-development-environment-1/1454579240625.jpg "1454579240625.jpg"
-  [5]: ./images/iOS-jailbreak-development-environment-1/1454579985438.jpg "1454579985438.jpg"
-  [6]: ./images/iOS-jailbreak-development-environment-1/1454580724047.jpg "1454580724047.jpg"
-  [7]: ./images/iOS-jailbreak-development-environment-1/1454580879589.jpg "1454580879589.jpg"
+  [1]: /assets/images/iOS-jailbreak-development-environment-1/1454494321547.jpg "1454494321547.jpg"
+  [2]: /assets/images/iOS-jailbreak-development-environment-1/1454578651005.jpg "1454578651005.jpg"
+  [3]: /assets/images/iOS-jailbreak-development-environment-1/1454579092711.jpg "1454579092711.jpg"
+  [4]: /assets/images/iOS-jailbreak-development-environment-1/1454579240625.jpg "1454579240625.jpg"
+  [5]: /assets/images/iOS-jailbreak-development-environment-1/1454579985438.jpg "1454579985438.jpg"
+  [6]: /assets/images/iOS-jailbreak-development-environment-1/1454580724047.jpg "1454580724047.jpg"
+  [7]: /assets/images/iOS-jailbreak-development-environment-1/1454580879589.jpg "1454580879589.jpg"
