@@ -133,6 +133,7 @@ SDK地址：http://iphone.howett.net/sdks
 ![][6]
 
 输入iPhone的root密码即可安装成功,打开`iPhone上的Cydia -> 已安装 -> 最近`来查看安装结果,如图
+
 ![][7]
 
 
