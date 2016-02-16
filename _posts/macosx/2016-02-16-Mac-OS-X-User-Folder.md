@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mac OS X用户文件夹国际化显示
-category: Mac OS X
-tags: Mac OS X
+category: MacOSX
+tags: MacOSX
 keywords: Mac OS X用户文件夹国际化显示
 description: Mac OS X用户文件夹国际化显示
 ---
