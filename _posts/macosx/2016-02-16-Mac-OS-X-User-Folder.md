@@ -1,10 +1,10 @@
 ---
 layout: post
-title: MacOSX用户文件夹国际化显示
+title: Mac OS X用户文件夹国际化显示
 category: Mac OS X
 tags: Mac OS X
-keywords: MacOSX用户文件夹国际化显示
-description: MacOSX用户文件夹国际化显示
+keywords: Mac OS X用户文件夹国际化显示
+description: Mac OS X用户文件夹国际化显示
 ---
 
 不知道打开有没有发现在Mac OS X的用户目录下有几个特殊的文件夹
